@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+	
+	header
+	{
+		border: 2px solid black;
+		position: relative;
+		width: 100%;
+		height: 50px;
+		box-shadow: 1PX 1px 1px 2px rgba(0,0,0,0.20);
+		border:#FFF;
+		border-radius:2px;
+	}
+	
+	#headdiv
+	{
+		/*border: #CF070A solid 2px;*/
+		position:absolute;
+		margin-top: 0.9%;
+		margin-bottom:1%;
+		height: 30px;
+		margin-left: 1%;
+		font-family:fontawesome;
+		font-size: 25px;
+		color:#1F1D1D;
+		float: left;
+		
+		
+
+ 	}
+	
+	#headdiv2,#headdiv,#headdiv3,#headhead
+	{
+		display: inline;
+		position:static;
+		
+	}
+	
+	#headdiv2,#headdiv3,#headhead
+	{
+		float: right;
+	}
+	
+	#headdiv2
+	{
+		/*position:absolute;*/
+		/*float: right;*/
+		margin-top: 0.9%;
+		margin-bottom:1%;
+		height: 30px;
+		margin-left: 1%;
+		font-family:fontawesome;
+		font-size: 20px;
+		color:#1F1D1D;
+	}
+	
+	#headdiv3
+	{
+		/*position:absolute;*/
+		/*float: right;*/
+		margin-top: 0.9%;
+		margin-bottom:1%;
+		height: 30px;
+		margin-left: 1%;
+		font-family:fontawesome;
+		font-size: 20px;
+		color:#1F1D1D;
+		margin-right: 1%;
+	}
+	
+	#headhead
+	{
+		margin-top: 1.2%;
+		margin-bottom: 15%; 
+		position: relative;
+		
+		
+	}
+	
+	#compactHeaddiv
+	{
+		margin-right: 2%;
+	}
+	
+	#downHeader
+	{
+		border: 2px solid black;
+		position:relative;
+		width: 30%;
+		height: 50px;
+		box-shadow: 1PX 1px 1px 2px rgba(0,0,0,0.20);
+		border:#FFF;
+		border-radius:2px;
+		float: right;
+		margin-top: 3%;
+		margin-right: -14.5%;
+	}
+	
+	#downHeaderDiv1,#downHeaderDiv2
+	{
+		display: inline;
+		
+	}
+	
+	#downHeaderDiv1
+	{
+		float: left;
+		margin-top: 3%;
+		margin-bottom:1%;
+		height: 30px;
+		margin-left: 3%;
+		font-family:fontawesome;
+		font-size: 20px;
+		color:#1F1D1D;
+	}
+	
+	#downHeaderDiv2
+	{
+		float: right;
+		margin-top: 3%;
+		margin-bottom:1%;
+		height: 30px;
+		margin-right: 3%;
+		font-family:fontawesome;
+		font-size: 20px;
+		color:#1F1D1D;
+	}
+	#btpcreatepost
+	{
+		position: absolute;
+		float: right;
+		margin-top: 6%;
+		margin-left: 45.2%;
+		width: 30%;
+		height: 50px;
+		background-color: #4CAF50; /* Green */
+    	border: none;
+   		color: white;
+    	/*padding: 15px 32px;*/
+    	text-align: center;
+   		text-decoration: none;
+    	display: inline-block;
+    	font-size: 16px;
+		
+	}
+	
+	#postlistdiv
+	{
+		box-shadow: 1PX 1px 1px 2px rgba(0,0,0,0.20);
+		border:#FFF;
+		width: 68%;
+		margin-top: 6.1%;
+		height: 40px;
+		font-family: fontawesome;
+		font-size: 30px;
+		padding-top: 0.5%;
+		padding-left: 1%;
+	}
+	
+	#contentdiv
+	{
+		box-shadow: 1PX 1px 1px 2px rgba(0,0,0,0.20);
+		border:#FFF;
+		width: 69%;
+		margin-top: 1%;
+	}
+	
+	table 
+	{
+    border-collapse: collapse;
+    width: 104.8%;
+	}
+	
+	th, td 
+	{
+    text-align: left;
+    padding: 8px;
+	
+	}
+	
+	tr:nth-child(even){background-color: #f2f2f2}
+	
+	</style>
+</head>
+
+
+
+
+
+<body  onload="checklog()" >
+<header><div id="headdiv">ZERO ZERO LIVE BLOGGER</div><div id="compactHeaddiv">
+<div id="headdiv2"><a href = "log2.php"> Sign In </a> </div><h5 id="headhead">|</h5><div id="headdiv3"><a href="Sign_up.html"> Sign Up</a> </div></div><br>
+
+
+
+
+<div id="downHeader"> <div id="downHeaderDiv1"><i class="fa fa-bars"></i> &nbsp; Post List</div><div id="downHeaderDiv2"><i class="fa-home"></i> &nbsp; Back to Blog </div></div><br>
+
+
+<button type="button" id="btpcreatepost"><i class="fa-facebook-square"></i> Create New Post <i class="fa-facebook-square"></i></button>
+
+<div id = "postlistdiv">
+	<span>Post List</span>
+</div>
+
+<div id="contentdiv">
+	<table>
+		<tr>
+			<th>Title</th>
+			<th><i class="glyphicon glyphicon-user"></i> Author</th>
+			<th><i class="fa-calendar"></i> Publish At</th>
+			<th><i class="fa-wordpress"></i> Action</th>
+			<th></th>
+		</tr>
+		<tr>
+    		<td>harry potter</td>
+    		<td>lakith</td>
+    		<td>25/04/2005</td>
+    		<td>active</td>
+ 	    </tr>
+		
+	</table>
+</div>
+
+
+</header>
+</body>
+</html>
